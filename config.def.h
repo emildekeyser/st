@@ -499,9 +499,3 @@ static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
-
-/*
- * plumb_cmd is run on mouse button 3 click, with first NULL set to
- * current selection and with cwd set to the cwd of the active shell
- */
-static char *plumb_cmd[] = {"plumb", "-m", NULL, NULL};
