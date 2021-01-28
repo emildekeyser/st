@@ -1,6 +1,6 @@
 # Maintainer: user1
 
-pkgname=st
+pkgname=jera-st
 pkgver=0.8.4
 pkgrel=1
 pkgdesc='A simple virtual terminal emulator for X.'

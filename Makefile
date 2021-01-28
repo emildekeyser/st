@@ -51,6 +51,11 @@ install: st
 	tic -sx st.info
 	@echo Please see the README file regarding the terminfo entry of st.
 
+package: st
+	makepkg -sfc
+	mv jera-st-*.pkg.tar ~/.local/repo/
+	(cd ~/.local/repo/; repo-add localrepo.db.tar jera-st*.pkg.tar; cd -)
+
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
 	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
