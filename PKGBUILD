@@ -2,7 +2,7 @@
 
 pkgname=jera-st
 pkgver=0.8.4
-pkgrel=1
+pkgrel=2
 pkgdesc='A simple virtual terminal emulator for X.'
 arch=('i686' 'x86_64' 'armv7h')
 license=('MIT')
